@@ -146,23 +146,10 @@ footer {
   background-color: #0c0c13;
 }
 
-.footer {
-  display: flex;
-  justify-content: space-evenly;
-}
-
-footer ul {
-  list-style: none;
-}
-
-.footer > div {
-  width: 223px;
-}
-
-footer .footer-rights {
+.footer-rights {
   text-align: center;
   color: gray;
-  padding: 12px 0;
+  padding: 8px;
 }
 
 @media (min-width: 1024px) {
