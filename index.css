@@ -88,11 +88,6 @@ nav ul a:hover {
   gap: 20px;
 }
 
-.secondsection {
-  max-width: 80vw;
-  margin: auto;
-  height: 80vh;
-}
 
 main hr {
   background-color: #d883bc;
@@ -113,33 +108,45 @@ img {
   font-size: 1.9rem;
 }
 
-.secondsection .box {
-  background-color: white;
-  height: 2px;
-  margin: 56px 0;
-  display: flex;
-}
 
-.secondsection .vertical {
-  background-color: white;
-}
 
-.image-top {
-  width: 23px;
+.carousel {
   position: relative;
-  top: -48px;
-  left: -30px;
+  overflow: hidden;
+  border: 2px solid black;
+  border-radius: 6px;
+  padding: 4px;
+  margin: 4px;
+  background-color: gray;
 }
 
-.vertical-title {
-  position: relative;
-  font-size: 14px;
+.carousel-item {
+  display: none;
+  text-align: center;
 }
 
-.vertical-desc {
-  position: relative;
-  color: gray;
-  font-size: 9px;
+.carousel-item.active {
+  display: block;
+}
+
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #171751;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
 }
 
 footer {
@@ -272,6 +279,7 @@ footer {
 
     /* display: flex; */
   }
+
   .footer {
     display: flex;
     padding: 23px 123px;
@@ -282,7 +290,7 @@ footer {
     list-style: none;
   }
 
-  .footer > div {
+  .footer>div {
     width: 223px;
   }
 
