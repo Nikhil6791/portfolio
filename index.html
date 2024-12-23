@@ -1,100 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>Nikhil - Developer Portfolio</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=, initial-scale=1.0" />
-  <title>Nikhil - Developer Portfolio</title>
-  <link rel="stylesheet" href="index.css" />
-</head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Nikhil's Portfolio</div>
+        <div class="right">
+          <a href="menu-options.html"
+            ><img
+              src="https://api.iconify.design/prime:align-justify.svg?color=%23ffffff"
+              alt="Align Justify Icon"
+              class="menu-icon"
+              id="menuIcon"
+          /></a>
 
-<body>
-  <header>
-    <nav>
-      <div class="left">Nikhil's Portfolio</div>
-      <div class="right">
-        <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/">About</a></li>
-          <li><a href="/">Services</a></li>
-          <li><a href="/">Projects</a></li>
-          <li><a href="/">Contact Me</a></li>
-        </ul>
-      </div>
-    </nav>
-  </header>
-
-  <main>
-    <section class="firstsection">
-      <div class="leftsection">
-        <div class="intro">
-          <p>Hi, My Name is <span class="purple">Nikhil</span></p>
-          <div>I am passionate</div>
-          <span id="element"></span>
+          <!-- <ul class="list">
+            <li> -->
+          <!-- <li><a href="/">Home</a></li> -->
+          <!-- <li><a href="/">About</a></li>
+              <li><a href="/">Services</a></li>
+              <li><a href="/">Projects</a></li>
+              <li><a href="/">Contact Me</a></li> -->
+          <!-- </li>
+          </ul> -->
         </div>
-        <div class="buttons">
-          <button class="btn">Download Resume</button>
-          <button class="btn">Visit Github</button>
+      </nav>
+    </header>
+
+    <main>
+      <section class="firstsection">
+        <div class="leftsection">
+          <div class="intro">
+            <p>Hi, My Name is <span class="purple">Nikhil</span></p>
+            <div>I am passionate</div>
+            <span id="element"></span>
+          </div>
+          <div class="buttons">
+            <button class="btn">Download Resume</button>
+            <button class="btn">Visit Github</button>
+          </div>
         </div>
-      </div>
-      <div class="rightsection">
-        <img class="developer-image" src="images/hero-bg.jpg" alt="hero-img" height="500px" width="500px" />
-      </div>
-    </section>
-
-    <hr />
-
-    <section class="secondsection">
-      <span class="text-gray"> What I have done so far</span>
-      <h1>Work Experience</h1>
-      <div class="carousel">
-        <h3>My Projects</h3>
-        <div class="carousel-item active">
-          <h3>Calculator</h3>
-          <p>
-            A basic calculator built using HTML, CSS, and JavaScript. This project allows users to perform essential
-            arithmetic operations such as addition, subtraction, multiplication, and division. The application is
-            designed with a user-friendly interface and showcases clean coding practices with JavaScript logic kept in a
-            separate file for maintainability. It demonstrates my ability to create interactive web applications and
-            handle basic JavaScript functionalities effectively.
-          </p>
-
+        <div class="rightsection">
+          <img
+            class="developer-image"
+            src="images/hero-bg.jpg"
+            alt="hero-img"
+            height="500px"
+            width="500px"
+          />
         </div>
-        <div class="carousel-item">
-          <h3>Sign-Up Form</h3>
-          <p>
-            A responsive and visually appealing sign-up form designed using HTML and CSS. This project includes input
-            fields for user details such as name, email, and password, with proper labels and placeholders for
-            enhanced usability. The design emphasizes clean layouts and consistent styling, demonstrating my ability
-            to create accessible and aesthetically pleasing web forms. This project highlights my understanding of
-            form validation and user-centric design principles.
-          </p>
+      </section>
+
+      <hr />
+
+      <section class="secondsection">
+        <div class="my-experience">
+          <span class="text-gray"> What I have done so far</span>
+          <h2 class="my-projects">Projects</h2>
+          <div class="carousel">
+            <div class="carousel-item active">
+              <h3>Calculator</h3>
+              <p>
+                A basic calculator built using HTML, CSS, and JavaScript. This
+                project allows users to perform essential arithmetic operations
+                such as addition, subtraction, multiplication, and division. The
+                application is designed with a user-friendly interface and
+                showcases clean coding practices with JavaScript logic kept in a
+                separate file for maintainability. It demonstrates my ability to
+                create interactive web applications and handle basic JavaScript
+                functionalities effectively.
+              </p>
+            </div>
+            <div class="carousel-item">
+              <h3>Sign-Up Form</h3>
+              <p>
+                A responsive and visually appealing sign-up form designed using
+                HTML and CSS. This project includes input fields for user
+                details such as name, email, and password, with proper labels
+                and placeholders for enhanced usability. The design emphasizes
+                clean layouts and consistent styling, demonstrating my ability
+                to create accessible and aesthetically pleasing web forms. This
+                project highlights my understanding of form validation and
+                user-centric design principles.
+              </p>
+            </div>
+            <div class="buttons">
+              <button class="prev">&#10094;</button>
+              <button class="next">&#10095;</button>
+            </div>
+          </div>
         </div>
-        <div class="buttons">
-          <button class="prev">&#10094;</button>
-          <button class="next">&#10095;</button>
-        </div>
-      </div>
-    </section>
-  </main>
+      </section>
+    </main>
 
-  <footer>
-    <div class="footer-rights">Copyright &#169; All rights reserved</div>
-  </footer>
+    <footer>
+      <div class="footer-rights">Copyright &#169; All rights reserved</div>
+    </footer>
 
-  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-  <script src="script.js"></script>
-  <script>
-    var typed = new Typed("#element", {
-      strings: [
-        "Web Developer",
-        "Graphic Designer",
-        "Web Designer",
-        "Video Editor",
-      ],
-      typeSpeed: 50,
-    });
-  </script>
-</body>
-
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "Web Developer",
+          "Graphic Designer",
+          "Web Designer",
+          "Video Editor",
+        ],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
 </html>
