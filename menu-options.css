@@ -1,0 +1,23 @@
+.hidden {
+    display: none;
+}
+
+#popupMenu {
+    position: absolute;
+    top: 50px;
+    right: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+#popupMenu a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 5px 0;
+}
+
+#popupMenu a:hover {
+    color: rgb(146, 146, 232);
+}
