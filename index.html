@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=, initial-scale=1.0" />
     <title>Nikhil - Developer Portfolio</title>
     <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="menu-options.css" />
   </head>
 
   <body>
@@ -12,13 +13,18 @@
       <nav>
         <div class="left">Nikhil's Portfolio</div>
         <div class="right">
-          <a href="menu-options.html"
+          <a
             ><img
               src="https://api.iconify.design/prime:align-justify.svg?color=%23ffffff"
               alt="Align Justify Icon"
               class="menu-icon"
               id="menuIcon"
           /></a>
+
+          <div id="popupMenu" class="hidden menu-list">
+            <a href="about.html">About</a>
+            <a href="experience.html">Experience</a>
+          </div>
 
           <!-- <ul class="list">
             <li> -->
@@ -42,14 +48,24 @@
             <span id="element"></span>
           </div>
           <div class="buttons">
-            <button class="btn">Download Resume</button>
-            <button class="btn">Visit Github</button>
+            <a
+              href="Documents/My_Resume.pdf"
+              download="My_Resume"
+              class="btn links"
+              >Download Resume</a
+            >
+            <a
+              href="https://github.com/Nikhil6791"
+              target="_blank"
+              class="btn links"
+              >Visit Github</a
+            >
           </div>
         </div>
         <div class="rightsection">
           <img
             class="developer-image"
-            src="images/hero-bg.jpg"
+            src="images/hero-bg-removebg-preview.png"
             alt="hero-img"
             height="500px"
             width="500px"
@@ -100,6 +116,15 @@
     </main>
 
     <footer>
+      <div class="social">
+        <h5>Contact Me</h5>
+        <a href="https://instagram.com/nikhil_pandey012" target="_blank"
+          ><img src="images/instagram1.png" height="23" width="23"
+        /></a>
+        <a href="mailto:nikhilspandey08@gmail.com"
+          ><img src="images/gmail.png" height="23" width="23"
+        /></a>
+      </div>
       <div class="footer-rights">Copyright &#169; All rights reserved</div>
     </footer>
 

@@ -6,17 +6,22 @@ body {
   font-family: "Poppins", serif;
 }
 
-/* .education{
-  margin-top: 8px;
+
+
+/* .journey {
+  display: flex;
+  justify-content: center;
 } */
-.academic-studies {
+
+.work-experience {
   border: 2px solid gray;
   border-radius: 6px;
-  padding: 13px;
+  padding: 17px;
   margin: 4px;
+  margin-bottom: 20px;
 }
 
-.graduation {
+.projects {
   border: 2px solid gray;
   border-radius: 6px;
   padding: 13px;
@@ -24,10 +29,4 @@ body {
   margin-bottom: 20px;
 }
 
-.about-me {
-  margin-left: 6px;
-}
 
-.introduction {
-  margin-left: 6px;
-}
