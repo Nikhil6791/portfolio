@@ -88,7 +88,7 @@ nav ul a:hover {
   white-space: nowrap;
 }
 
-.leftsection .links{
+.leftsection .links {
   text-decoration: none;
   color: inherit;
 }
@@ -177,8 +177,18 @@ main hr {
   right: 10px;
 }
 
+.social {
+  display: flex;
+  justify-content: space-evenly;
+}
 footer {
   background-color: #0c0c13;
+  padding: 10px;
+}
+
+footer h5 {
+  padding: 7px;
+  margin-left: 140px;
 }
 
 .footer-rights {
